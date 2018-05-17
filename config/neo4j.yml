@@ -1,0 +1,11 @@
+development:
+  type: http
+  url: <%= ENV['NEO4J_DEV_URL'] %>
+
+test:
+  type: http
+  url: http://localhost:7000
+
+production:
+  type: http
+  url: http://192.168.1.21:7474
